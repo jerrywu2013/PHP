@@ -1,0 +1,8 @@
+####Install Composer on ubuntu 14.04
+
+```cd /usr/local/bin
+sudo curl -s https://getcomposer.org/installer | sudo php
+sudo chmod a+x composer.phar
+sudo composer.phar self-update
+composer.phar install
+```
