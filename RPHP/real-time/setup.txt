@@ -1,0 +1,9 @@
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer 
+sudo composer self-update
+sudo composer selfupdate
+
+vim composer.json
+composer update kachkaev/php-r
+
+
